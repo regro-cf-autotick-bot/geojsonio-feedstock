@@ -1,5 +1,5 @@
-About geojsonio.py
-==================
+About geojsonio
+===============
 
 Home: https://github.com/jwass/geojsonio.py
 
@@ -11,25 +11,25 @@ Summary: geojsonio CLI - Python.
 
 
 
-Installing geojsonio.py
-=======================
+Installing geojsonio
+====================
 
-Installing geojsonio.py from the conda-forge channel can be achieved by adding conda-forge to your channels with:
+Installing geojsonio from the conda-forge channel can be achieved by adding conda-forge to your channels with:
 
 ```
 conda config --add channels conda-forge
 ```
 
-Once the conda-forge channel has been enabled, geojsonio.py can be installed with:
+Once the conda-forge channel has been enabled, geojsonio can be installed with:
 
 ```
-conda install geojsonio.py
+conda install geojsonio
 ```
 
-It is possible to list all of the versions of geojsonio.py available on your platform with:
+It is possible to list all of the versions of geojsonio available on your platform with:
 
 ```
-conda search geojsonio.py --channel conda-forge
+conda search geojsonio --channel conda-forge
 ```
 
 
@@ -69,20 +69,20 @@ Terminology
 
 Current build status
 ====================
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/geojsonio.py-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/geojsonio.py-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/geojsonio.py-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/geojsonio.py-feedstock) 
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/geojsonio.py-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/geojsonio.py-feedstock/branch/master)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/geojsonio-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/geojsonio-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/geojsonio-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/geojsonio-feedstock) 
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/geojsonio-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/geojsonio-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/geojsonio.py/badges/version.svg)](https://anaconda.org/conda-forge/geojsonio.py)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/geojsonio.py/badges/downloads.svg)](https://anaconda.org/conda-forge/geojsonio.py)
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/geojsonio/badges/version.svg)](https://anaconda.org/conda-forge/geojsonio)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/geojsonio/badges/downloads.svg)](https://anaconda.org/conda-forge/geojsonio)
 
 
-Updating geojsonio.py-feedstock
-===============================
+Updating geojsonio-feedstock
+============================
 
-If you would like to improve the geojsonio.py recipe, please take the normal
+If you would like to improve the geojsonio recipe, please take the normal
 route of forking this repository and submitting a PR. Upon submission, your changes will
 be run on the appropriate platforms to give the reviewer an opportunity to confirm that the
 changes result in a successful build. Once merged, the recipe will be re-built and uploaded
