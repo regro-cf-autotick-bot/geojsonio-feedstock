@@ -11,6 +11,18 @@ Summary: geojsonio CLI - Python.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/geojsonio-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/geojsonio-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/geojsonio-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/geojsonio-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/geojsonio-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/geojsonio-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/geojsonio/badges/version.svg)](https://anaconda.org/conda-forge/geojsonio)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/geojsonio/badges/downloads.svg)](https://anaconda.org/conda-forge/geojsonio)
+
 Installing geojsonio
 ====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `geojsonio` available on your plat
 ```
 conda search geojsonio --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/geojsonio-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/geojsonio-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/geojsonio-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/geojsonio-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/geojsonio-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/geojsonio-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/geojsonio/badges/version.svg)](https://anaconda.org/conda-forge/geojsonio)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/geojsonio/badges/downloads.svg)](https://anaconda.org/conda-forge/geojsonio)
 
 
 Updating geojsonio-feedstock
