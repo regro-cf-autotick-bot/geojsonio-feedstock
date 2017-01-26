@@ -3,7 +3,7 @@ About geojsonio
 
 Home: https://github.com/jwass/geojsonio.py
 
-Package license: BSD-3-Clause
+Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
