@@ -1,16 +1,16 @@
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 
 package:
   name: geojsonio
   version: {{ version }}
 
 source:
-  fn: geojsonio-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/g/geojsonio/geojsonio-{{ version }}.tar.gz
-  sha256: c118a4c954df47c7b481458c4752c1abfcaf9803bb6340b3526b00f821a50f09
+  sha256: 2afe91d9a86e30aaf0c449f430a024ab03503db3efce2e26ff5f1057f32f1083
 
 build:
   number: 0
+  noarch: python
   script: python setup.py install --single-version-externally-managed --record record.txt
   entry_points:
     - geojsonio = geojsonio:main
