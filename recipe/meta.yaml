@@ -5,11 +5,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/g/geojsonio/geojsonio-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/g/geojsonio/geojsonio-{{ version }}.tar.gz
   sha256: 2afe91d9a86e30aaf0c449f430a024ab03503db3efce2e26ff5f1057f32f1083
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: python setup.py install --single-version-externally-managed --record record.txt
   entry_points:
@@ -17,15 +17,17 @@ build:
 
 
 requirements:
-  build:
-    - python
+  host:
+    - python {{ python_min }}
     - setuptools
   run:
-    - python
+    - python >={{ python_min }}
     - github3.py
     - six
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - geojsonio
   commands:
